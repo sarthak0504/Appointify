@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --primary: #5f6fff; /* Indigo 600 */
+}
+.active hr{
+  @apply block;
+}
+::-webkit-scrollbar {
+  @apply hidden;
+}
